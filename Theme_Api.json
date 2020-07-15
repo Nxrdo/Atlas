@@ -19,10 +19,5 @@
 			"G": 255,
 			"B": 255
 		}
-	},
-	"CurrentStatus": {
-		"WaitingForRblx": "Waiting for Roblox...",
-		"WritingFiles": "Writing files...",
-		"CheckingWhitelist": "Checking Whitelist..."
 	}
 }
