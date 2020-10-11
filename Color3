@@ -1,4 +1,4 @@
-local BrickColorIndex = {
+return {
 	["White"] = Color3.fromRGB(242, 243, 243);
 	["Grey"] = Color3.fromRGB(161, 165, 162);
 	["Light yellow"] = Color3.fromRGB(249, 233, 153);
