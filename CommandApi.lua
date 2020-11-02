@@ -9,6 +9,7 @@
 	Textbox.FocusLost:Connect(function()
 		CommandApi:Parse(Textbox.Text)
 	end)
+	-- // Adding Commands \\ --
 	CommandApi:AddCommand("!getplayers", function()
 		for _, v in pairs(game.Players:GetPlayers()) do
 			print(v)
