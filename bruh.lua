@@ -1,21 +1,3 @@
--- // How to use:
---[[
-	local CommandApi = loadstring(game:HttpGet("https://raw.githubusercontent.com/Nxrdo/Atlas/master/CommandApi.lua"))() -- // Loads the API
-	-- // Chat parsing \\ --
-	game.Players.LocalPlayer.Chatted:Connect(function(msg)
-		CommandApi:Parse(msg) -- // Parses the message
-	end)
-	-- // Command bar parsing \\ --
-	Textbox.FocusLost:Connect(function()
-		CommandApi:Parse(Textbox.Text)
-	end)
-	-- // Adding Commands \\ --
-	CommandApi:AddCommand("!getplayers", function()
-		for _, v in pairs(game.Players:GetPlayers()) do
-			print(v)
-		end
-	end)
---]]
 return (function(L_1_arg1, L_2_arg2, L_3_arg3)
 	local L_4_ = string.char;
 	local L_5_ = string.sub;
